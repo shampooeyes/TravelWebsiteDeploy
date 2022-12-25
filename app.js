@@ -1,6 +1,6 @@
 const express = require("express");
 const cookieParser = require("cookie-parser");
-const sessions = require("express-session");
+const sessions = require("cookie-session");
 const path = require("path");
 const MongoClient = require("mongodb").MongoClient;
 
